@@ -1,0 +1,88 @@
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: black;
+}
+
+.incorrect {
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.correct {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+}
+
+.in-word{
+    color: white;
+    background-color: gold;
+    border: 2px solid gold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-child {
+    display: flex;
+}
+
+.wordle {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.blank-space {
+    flex-basis: 25%;
+    justify-content: center;
+    flex-shrink: 2;
+}
+
+.wordle-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.wordle-children {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.word-children {
+    max-width: 55px;
+    min-width: 55px;
+    max-height: 55px;
+    min-height: 55px;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.children-border {
+    border: 2px solid lightgray;
+}
+
+.rules-container {
+    display: flex;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.word-reveal {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
